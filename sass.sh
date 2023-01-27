@@ -142,7 +142,7 @@ then
 {
 mkdir -p ./public/js/modules && touch ./public/js/modules/objects.js ./public/js/modules/classes.js ./public/js/modules/instances.js ./public/js/modules/functions.js 
 # Ajout du lien JS dans HTML à la ligne 18
-sed -i "18i\<script src='./public/js/main.js' type='modules'></script>" index.html
+sed -i "18i\<script src='./public/js/main.js' type='module'></script>" index.html
 }
 else  
 sed -i "18i\<script src='./public/js/main.js'></script>" index.html
